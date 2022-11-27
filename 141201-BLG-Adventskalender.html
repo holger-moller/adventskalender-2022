@@ -1,0 +1,468 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+<!--
+
+To Do:
+=========
+
+// Quelle / Impressum angeben
+
+---
+
+
+-->
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+<head>
+
+<title>Berufseinstieg leicht gemacht - Adventskalender 2014</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="author" content="Holger Moller">
+<meta name="copyright" content="Copyright (C)2008 Holger Moller.">
+<meta name="keywords" content="Advent Adventskalender">
+<meta name="description" content="">
+<meta name="robots" content="">
+
+<style type="text/css">
+<!-- datei-spezifische Formate -->
+h1,p { font-family: Verdana, Arial, Helvetica; font-size:25px; color: #FFFFFF; font-weight:bold; }
+p { font-family: Verdana, Arial, Helvetica; font-size:25px; color: #FFFFFF; font-weight:bold;}
+a:link{color:#FFFFFF;text-decoration:none;}
+a:visited{color:#FFFFFF;text-decoration:none;}
+a:active{color:#FFFFFF;text-decoration:none;}
+body { margin: 0px; padding: 0px; background-color: #AA0000; background-image: url(""); background-position: center; height: 100%; }
+.bordercell { border: #003300 6px solid; background-color: #006600; }
+.bordercell-lightgreen { border: #003300 6px solid; background-color: #008300; }
+.bordercell-red { border: #003300 6px solid; background-color: #880000; }
+
+.tooltip {
+ position: absolute;
+ display: none;
+ font-family: Verdana, Arial, Helvetica;
+ // font-weight: bold;
+ font-weight: normal;
+ font-size:12px;
+ color: #006600;
+ background-color: #DDDDDD;
+ border-width: 1px;
+ border-style: solid;
+ border-color: #000000;
+ padding: 5px;
+}
+
+.tooltip0 {
+  position: absolute;
+  display: none;
+  background-color: #FFFFFF;
+}
+
+</style>
+
+</head>
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+<script>
+<!--
+
+var b_Check_Date = 1;
+
+
+function f_Check_Date(tag)
+{
+ b_Check_Date = 1;
+
+ var d_Jetzt = new Date(); // aktuelles Systemdatum
+
+
+
+
+ // zum Testen
+
+ // d_Jetzt.setDate(6);  // 06.12.
+ // d_Jetzt.setDate(25);  // 25.12.
+ // d_Jetzt.setMonth(11);
+ // d_Jetzt.setYear(2008);
+
+ // alert(d_Jetzt.getDate() +"." + (d_Jetzt.getMonth()+1) + "." + d_Jetzt.getYear());
+
+
+
+
+ if ((d_Jetzt.getMonth() +1) < 12) // Monate werden wohl von 0-11 nummeriert
+ {
+  b_Check_Date = 0;
+ }
+ else
+ {
+  if (d_Jetzt.getDate() < tag) {b_Check_Date = 0;}
+ }
+
+
+
+
+ b_Check_Date = 1;  // zum Testen der Links
+ // alert(b_Check_Date);  // zum Testen
+
+}
+
+//-->
+</script>
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+<script>
+<!--
+wmtt = null;
+
+document.onmousemove = updateWMTT;
+
+function updateWMTT(e) {
+  if (wmtt != null) {
+    x = (document.all) ? window.event.x + wmtt.offsetParent.scrollLeft : e.pageX;
+    y = (document.all) ? window.event.y + wmtt.offsetParent.scrollTop  : e.pageY;
+    wmtt.style.left = (x + 20) + "px";
+    wmtt.style.top   = (y + 20) + "px";
+  }
+}
+
+function showWMTT(id)
+{
+  f_Check_Date(id);
+  if (b_Check_Date == 1)
+  {
+   wmtt = document.getElementById(id);
+  }
+  else
+  {
+   wmtt = document.getElementById('0');
+  }
+  wmtt.style.display = "block"
+}
+
+function hideWMTT() {
+  wmtt.style.display = "none";
+}
+//-->
+</script>
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+
+<script language="JavaScript">
+<!--
+
+
+var verweis = new Array();
+
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+
+verweis[1]  = "http://goo.gl/jHffuI";   //
+verweis[2]  = "http://goo.gl/0cJofn";   //
+verweis[3]  = "http://goo.gl/AW0fe9";   //
+verweis[4]  = "http://goo.gl/EFUD9n";   //
+verweis[5]  = "http://goo.gl/dcySKH";   //
+verweis[6]  = "http://goo.gl/KI0dJD";   //
+verweis[7]  = "http://goo.gl/Sq723Y";   //
+verweis[8]  = "http://goo.gl/wMq0C9";   //
+// verweis[8]  = "http://goo.gl/YUnosw";   // http://goo.gl/wMq0C9
+verweis[9]  = "http://goo.gl/bYZgdU";   //
+verweis[10]  = "http://goo.gl/8GN3La";   //
+verweis[11]  = "http://goo.gl/PKH8iZ";   //
+verweis[12]  = "http://goo.gl/p42hX2";   //
+verweis[13]  = "http://goo.gl/b90BRM";   //
+verweis[14]  = "http://goo.gl/qE5sUx";   //
+verweis[15]  = "http://goo.gl/VJniWa";   //
+verweis[16]  = "http://goo.gl/4ukkDJ";   //
+verweis[17]  = "http://goo.gl/DUy6ny";   //
+verweis[18]  = "http://goo.gl/24aTgo";   //
+verweis[19]  = "http://goo.gl/mVEPjk";   //
+verweis[20]  = "http://goo.gl/KFd9Ya";   //
+verweis[21]  = "http://goo.gl/YQAii7";   // http://cinema.arte.tv/de/das-vorstellungsgesprach
+verweis[22]  = "http://goo.gl/mK3eyq";   //
+verweis[23]  = "http://goo.gl/2x5bpn";   //
+verweis[24]  = "http://www.youtube.com/watch?v=ef1irEsEEMw";   // Band Aid 30 Germany 2014 // 18.12.2014
+verweis[25]  = "http://goo.gl/06qIW5";   //
+
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+
+function tuerchen(tag)
+{
+ f_Check_Date(tag);
+ if (b_Check_Date == 1)
+ {
+  document.location.href = verweis[tag];
+ }
+}
+
+
+//-->
+</script>
+
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+
+<body>
+
+<div class="tooltip" id="0" style="color:#AA0000">Dieses T&uuml;rchen ist heute noch geschlossen.</div>
+<div class="tooltip" id="1">The Candidate</div>
+<div class="tooltip" id="2">Treffsicher</div>
+<div class="tooltip" id="3">Wieviele Sekunden gibt Ihnen der Personaler?</div>
+<div class="tooltip" id="4">Was geh&ouml;rt hinein?</div>
+<div class="tooltip" id="5">Talente binden</div>
+<div class="tooltip" id="6">Fifty ways ...</div>
+<div class="tooltip" id="7">Jobsuche ist ...</div>
+<div class="tooltip" id="8">Spring ins Kalte!</div>
+<div class="tooltip" id="9">Worklifestyle</div>
+<div class="tooltip" id="10">Papier ist geduldig</div>
+<div class="tooltip" id="11">Guerilla Recruiting</div>
+<div class="tooltip" id="12">Bereit für 2015?</div>
+<div class="tooltip" id="13">B&ouml;rsen, B&ouml;rsen, B&ouml;rsen</div>
+<div class="tooltip" id="14">Mailen, aber richtig ...</div>
+<div class="tooltip" id="15">Wer suchet, der findet.</div>
+<div class="tooltip" id="16">Lesetipp</div>
+<div class="tooltip" id="17">Recruiting Gezwitscher</div>
+<div class="tooltip" id="18">Detektivarbeit</div>
+<div class="tooltip" id="19">Xingen</div>
+<div class="tooltip" id="20">Hot or not?</div>
+<div class="tooltip" id="21">Das Vorstellungsgespr&auml;ch</div>
+<div class="tooltip" id="22">Dran bleiben</div>
+<div class="tooltip" id="23">Money, money, money</div>
+<div class="tooltip" id="24">Let them know</div>
+<div class="tooltip" id="25">Frohe Weihnachten und einen guten Start ins neue Jahr 2015</div>
+
+
+ <center>
+
+
+ <!-- Rahmentabelle -->
+ <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%" style="vertical-align:middle">
+  <tr>
+   <td style="vertical-align:middle" align="center">
+
+    <!-- Content Beginn -->
+
+    <table width="520" cellspacing="8" cellpadding="10" style="vertical-align:middle">
+     <colgroup>
+      <col width="95">
+
+      <col width="95">
+      <col width="95">
+      <col width="95">
+      <col width="95">
+     </colgroup>
+
+     <tr height="95" valign="center">
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="bk_advnt.jpg">
+       <p>
+
+       <a href="javascript:tuerchen(17);"
+       title="" onmouseover="showWMTT('17')" onmouseout="hideWMTT()">
+       17</a></p>
+      </td>
+      <td class="bordercell-lightgreen" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(2);"
+       title="" onmouseover="showWMTT('2')" onmouseout="hideWMTT()">
+       2</a></p>
+      </td>
+
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="bk_advnt.jpg">
+       <p>
+       <a href="javascript:tuerchen(16);"
+       title="" onmouseover="showWMTT('16')" onmouseout="hideWMTT()">
+       16</a></p>
+      </td>
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(9);"
+       title="" onmouseover="showWMTT('9')" onmouseout="hideWMTT()">
+
+       9</a></p>
+      </td>
+      <td class="bordercell-lightgreen" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(22);"
+       title="" onmouseover="showWMTT('22')" onmouseout="hideWMTT()">
+       22</a></p>
+      </td>
+     </tr>
+
+     <tr height="95" valign="center">
+      <td class="bordercell-lightgreen" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(23);"
+       title="" onmouseover="showWMTT('23')" onmouseout="hideWMTT()">
+       23</a></p>
+      </td>
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+       <p>
+
+       <a href="javascript:tuerchen(15);"
+       title="" onmouseover="showWMTT('15')" onmouseout="hideWMTT()">
+       15</a></p>
+      </td>
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(8);"
+       title="" onmouseover="showWMTT('8')" onmouseout="hideWMTT()">
+       8</a></p>
+      </td>
+
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="bk_advnt.jpg">
+       <p>
+       <a href="javascript:tuerchen(1);"
+       title="" onmouseover="showWMTT('1')" onmouseout="hideWMTT()">
+       1</a></p>
+      </td>
+      <td class="bordercell-lightgreen" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(14);"
+       title="" onmouseover="showWMTT('14')" onmouseout="hideWMTT()">
+       14</a></p>
+      </td>
+     </tr>
+
+     <tr height="95" valign="center">
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(6);"
+       title="" onmouseover="showWMTT('6')" onmouseout="hideWMTT()">
+
+       6</a></p>
+      </td>
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(11);"
+       title="" onmouseover="showWMTT('11')" onmouseout="hideWMTT()">
+       11</a></p>
+      </td>
+      <td class="bordercell-lightgreen" valign="bottom" align="right" BACKGROUND="bk_advnt.jpg">
+
+       <p>
+       <!-- <a href="http://www.weihnachtsmanndorf.de/wunschzettel/wunschlisten.php"
+       title=""> -->
+       <a href="javascript:tuerchen(3);"
+       title="" onmouseover="showWMTT('3')" onmouseout="hideWMTT()">
+       3</a></p>
+      </td>
+      <td class="bordercell-lightgreen" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(13);"
+       title="" onmouseover="showWMTT('13')" onmouseout="hideWMTT()">
+
+       13</a></p>
+      </td>
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(5);"
+       title="" onmouseover="showWMTT('5')" onmouseout="hideWMTT()">
+       5</a></p>
+      </td>
+     </tr>
+
+     <tr height="95" valign="center">
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="bk_advnt.jpg">
+       <p>
+       <a href="javascript:tuerchen(18);"
+       title="" onmouseover="showWMTT('18')" onmouseout="hideWMTT()">
+       18</a></p>
+      </td>
+      <td class="bordercell-red" valign="center" align="center" BACKGROUND="">
+       <p><a href="javascript:tuerchen(25);"
+       title="" onmouseover="showWMTT('25')" onmouseout="hideWMTT()">
+
+       XM<br>AS</a></p>
+      </td>
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(19);"
+       title="" onmouseover="showWMTT('19')" onmouseout="hideWMTT()">
+       19</a></p>
+      </td>
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+
+       <p>
+       <a href="javascript:tuerchen(10);"
+       title="" onmouseover="showWMTT('10')" onmouseout="hideWMTT()">
+       10</a></p>
+      </td>
+      <td class="bordercell-lightgreen" valign="bottom" align="right" BACKGROUND="bk_advnt.jpg">
+       <p><a href="javascript:tuerchen(12);"
+       title="" onmouseover="showWMTT('12')" onmouseout="hideWMTT()">
+       12</a></p>
+      </td>
+
+     </tr>
+
+     <tr height="95" valign="center">
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(21);"
+       title="" onmouseover="showWMTT('21')" onmouseout="hideWMTT()">
+       21</a></p>
+      </td>
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="bk_advnt.jpg">
+
+       <p>
+       <a href="javascript:tuerchen(7);"
+       title="" onmouseover="showWMTT('7')" onmouseout="hideWMTT()">
+       7</a></p>
+      </td>
+      <td class="bordercell" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(20);"
+       title="" onmouseover="showWMTT('20')" onmouseout="hideWMTT()">
+       20</a></p>
+
+      </td>
+      <td class="bordercell-lightgreen" valign="bottom" align="right" BACKGROUND="">
+       <!-- -->
+       <p>
+       <a href="javascript:tuerchen(4);"
+       title="" onmouseover="showWMTT('4')" onmouseout="hideWMTT()">
+       4</a></p>
+       <!-- onMouseover="fenster_ein('Ein friedvolles und gesegnetes Weihnachtsfest und einen guten Start ins neue Jahr 2006 wünscht Holger Moller !')" onMouseout="fenster_aus()" -->
+       <!-- -->
+       <!--
+       <p>
+       <a href="javascript:dummy()" ONMOUSEOVER="popup('test','red')" ONMOUSEOUT="kill()">
+       XM<br>AS</a></p>
+       -->
+      </td>
+      <td class="bordercell-lightgreen" valign="bottom" align="right" BACKGROUND="">
+       <p>
+       <a href="javascript:tuerchen(24);"
+       title="" onmouseover="showWMTT('24')" onmouseout="hideWMTT()">
+       24</a></p>
+      </td>
+     </tr>
+    </table>
+
+    <!-- Content Ende -->
+    <br><a href="http://berufseinstieg.holger-moller.de">&copy; 2014 Holger Moller - Berufseinstieg leicht gemacht</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://berufseinstieg.holger-moller.de/impressum/">Impressum</a>
+   </td>
+
+  </tr>
+ </table>
+ <!-- Rahmentabelle -->
+
+ </center>
+</body>
+
+<!-- ---------------------------------------------------------------------------------------- -->
+
+</html>
